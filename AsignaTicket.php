@@ -1,10 +1,10 @@
 <?php
 // Función para asignar automáticamente un analista basado en el departamento
 function asignarAnalista($Departamento) {
-    // Implementa aquí tu lógica de asignación de analistas basada en departamentos
-    // Puedes utilizar una base de datos, un archivo de configuración o cualquier otro mecanismo de almacenamiento de datos para obtener la asignación adecuada
+    // Implementa la lógica de asignación de analistas basada en departamentos
+    // utilizar una base de datos, un archivo de configuración 
 
-    // Ejemplo de asignación aleatoria de analistas
+    //asignación aleatoria de analistas
     $analistasPorDepartamento = array(
         'Ventas' => array('Analista1', 'Analista2', 'Analista3'),
         'Soporte' => array('Analista4', 'Analista5', 'Analista6'),
